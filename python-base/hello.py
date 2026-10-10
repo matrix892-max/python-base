@@ -1,4 +1,16 @@
-#!/nix/store/sj74dzrygwdxpb54fv7zc6ry75ay4f3n-python-wrapped-0.1.0/bin/python
+
+
+# Utilizando o SHEBANG como na linha abaixo o script usa as variáveis
+# de ambiente conforme conforme a versão de variáveis ou do Python
+# como determinado na criação do Script Python assim independe de onde
+# o Script Python estiver rodando para verificar as variáveis de ambiente
+# no Linux utilizar o comando env e o comando which python para saber
+# o caminho da versão do python para usar no SHEBANG
+
+#!/nix/store/sj74dzrygwdxpb54fv7zc6ry75ay4f3n-python-wrapped-0.1.0/bin/env python
+
+
+# #!/nix/store/sj74dzrygwdxpb54fv7zc6ry75ay4f3n-python-wrapped-0.1.0/bin/python
 # SHEBANG - Comentário especial mensagem especial para o SO receber
 # antes do código rodar no caso versão do python pelo comando which
 # python 
